@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}body {
+     font-family: 'Rubik';
+    background-image: url("/images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+.bg-theme {
+    background: linear-gradient(to right top, #0155A5,#343EDF);
+    color: white;
+}
+.btn-default {
+    background-color: #f8f9fa;
+    border-color: #ddd;
+    color: #444;
+}
+.hidden{
+    display: none;
+    visibility: hidden;
+}
+$fa-font-path:        "../webfonts";
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/brands";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+
+
+
